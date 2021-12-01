@@ -1,0 +1,14 @@
+module Main {
+  requires javafx.controls;
+  requires javafx.graphics;
+  requires javafx.fxml;
+requires javafx.base;
+
+//  opens Main;
+  opens application to javafx.fxml;
+  opens application.controller to javafx.fxml;
+  opens application.model to javafx.fxml;
+  exports application;
+  exports application.controller;
+  exports application.model;
+}
