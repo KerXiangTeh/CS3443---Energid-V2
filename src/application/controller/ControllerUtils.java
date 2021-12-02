@@ -73,7 +73,7 @@ public class ControllerUtils {
 	 * @param primaryStage
 	 */
 	public static void openStatsHomePage(Stage primaryStage) {
-		openPage(primaryStage, "StatsHome.fxml", "Home");
+		openPage(primaryStage, "Stats Home.fxml", "Home");
 	}
 	
 	/**

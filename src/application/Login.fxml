@@ -45,6 +45,14 @@
                            <Font size="24.0" />
                        </font>
                    </PasswordField>
+                  <Label text="ENERGID" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Baskerville Old Face" size="53.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="30.0" top="-100.0" />
+                     </GridPane.margin>
+                  </Label>
                </children>
             </GridPane>
          </center>
